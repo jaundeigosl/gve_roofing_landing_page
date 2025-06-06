@@ -1,0 +1,99 @@
+html , body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    height: 30%;
+    background-color: black;
+    padding: 1vw;
+    display: flex;
+}
+
+#logo-content{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    width: 8vw;
+}
+
+#contact-info-header-nav{
+    width: 100%;
+    padding-right: 1.5vw;
+    padding-top: 1vw;
+    
+}
+
+#contact-info-header{
+    display: flex;
+    justify-content: end;
+    gap: 1vw;
+    padding-right: 2vw;
+}
+
+.contact-info-header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.8vw;
+}
+
+#location-header{
+    width:30%
+}
+
+#mail-header{
+    width:25%
+}
+
+#phone-header{
+    width:23%
+}
+
+.svg-image{
+    width: 1.4vw;
+    fill:#E2AE58;
+}
+
+.contact-info-header-text{
+    color: #E2AE58;
+    font-size:1.2vw;
+    text-align: end;
+}
+
+#address{
+    width:70%;
+}
+
+#phone{
+    font-size:1.5vw;
+}
+
+#header-info-inspection-button{
+    background-color:#E2AE58;
+    width: 10vw;
+    height: auto;
+    padding: 0.7vw;
+}
+
+#nav-header{
+    border-top: 2px solid #E2AE58;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5vw;
+    padding-top: 1.5vw;
+}
+
+.nav-header-container{
+    color: #941C24;
+    font-size: 1.5vw;
+    font-weight:bold;
+}
