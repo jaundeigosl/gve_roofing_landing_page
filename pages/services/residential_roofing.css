@@ -1,0 +1,237 @@
+:root {
+    --red-intense: #D91C30;
+    --red-darker: #841A20;
+    --yellow-golden:#E2AE58;
+    --gold-shadow-color: rgba(255, 215, 0, 0.5);
+}
+
+.light {
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: 700;
+    }
+
+.italic {
+    font-style: italic;
+}
+
+#main-section{
+    width: 100%;
+    height: 210vw;
+    background-image: linear-gradient( 180deg, rgba(0,0,0,0.90) 0%, rgba(0,0,0,0.90) 100% ) ,url('../../images/logo_blanco.png');    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#main-section-title{
+    background-image: linear-gradient( 180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.55) 100% ) ,url('../../images/Home_6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 25%;
+    width: 100%;
+    height:25vw;
+
+}
+
+#main-section-title div{
+    padding-top: 8vw;
+    padding-left: 2vw;
+}
+
+#main-section-title h2{
+    color: var(--red-intense);
+    margin:0;
+    font-size: 2.5vw;
+    text-shadow: 
+        1px 1px 0px black, 
+        -1px -1px 0px black,
+        1px -1px 0px black,
+        -1px 1px 0px black;
+}
+
+#main-section-title h1{
+    color: var(--yellow-golden);
+    margin:0;
+    font-size: 5.5vw;
+    text-shadow: 
+        1px 1px 0px black, 
+        -1px -1px 0px black,
+        1px -1px 0px black,
+        -1px 1px 0px black;
+}
+
+#main-section-content{
+    width: 100%;
+    padding-top: 5vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main-section-info{
+    width: 65%;
+    height:65vw;
+    padding-left: 3vw;
+    color: var(--yellow-golden);
+    font-size: 1.4vw;
+}
+
+#main-section-info h3{
+    color: var(--red-intense);
+    font-size: 2vw;
+    text-align: center;
+}
+
+#main-section-info-title{
+    width: 100%;
+    padding-left: 2vw;
+}
+
+#main-section-info-title h2{
+    color: var(--red-intense);
+    margin:0;
+    font-size: 3.5vw;
+}
+
+#main-section-info-title h1{
+    color: var(--yellow-golden);
+    margin:0;
+    font-size: 4vw;
+}
+
+#main-section-info-info{
+    padding-top: 3vw;
+}
+
+#main-section-form{
+    width: 30%;
+    height:65vw;
+    padding-top: 10vw;
+}
+
+#client-info-form{
+    width: 90%;
+    height: 30vw;
+    padding-bottom: 1vw;
+    color:var(--yellow-golden);
+    border-radius:0.80rem;
+    border: 4px solid var(--yellow-golden);
+     box-shadow: 
+    0px 0px 8px 5px var(--gold-shadow-color);
+}
+
+#client-info-form-first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14vw;
+    padding-left: 0.7vw;
+}
+
+.form-big-group{
+    padding-left: 1vw;
+    padding-right: 2vw;
+    width:12vw;
+    height: 12vw;
+}
+
+.form-group{
+    padding: 1vw;
+    width:12vw;
+    font-size: 1.3vw;
+}
+
+.form-group input{
+    margin-top: 0.5vw;
+    width: 10vw;
+    height:2vw;
+    font-size: 1.1vw;
+}
+
+#client-info-form-second-section{
+    display: flex;
+    justify-content: center;
+    height: 12vw;
+
+}
+
+#client-info-form-second-section .form-group{
+    width:15vw;
+    padding-right: 10vw;
+}
+
+#client-info-form-second-section .form-group textarea{
+    margin-top: 0.5vw;
+    font-size: 1.3vw;
+    width: 22vw;
+    height:6vw;
+}
+
+#form-submit-button{
+    background-color: var(--red-intense);
+    border: none;
+    font-size: 2vw;
+    border-radius: 0.25rem;
+    margin-left: 2vw;
+    padding: 0.5vw;
+}
+
+#phone{
+    font-size: 1.1vw;
+}
+
+.sub-section-image{
+    color: var(--yellow-golden);
+    width: 100%;
+    height:80vw;
+    display: flex;
+}
+
+.sub-section-image-text{
+    font-size: 1.5vw;
+    padding-left: 9.5vw;
+    padding-right: 2vw;
+    width: 65%;
+}
+
+.sub-section-image-text p{
+    line-height: 2.5vw;
+}
+
+.sub-section-image-text h3{
+    font-size: 2.5vw;
+}
+
+.sub-section-image-text li{
+    padding: 0.5vw;
+}
+
+.sub-section-image-container{
+    width: 45%;
+    height: 35%;
+    padding-left: 6vw;
+    padding-right: 2vw;
+    padding-bottom: 4vw;
+}
+
+.sub-section-image-container img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 0.25rem;
+    padding-bottom: 4vw;
+}
+
+.subtitle{
+    color:var(--red-intense);
+}
+
+#contact-us-section{
+    padding-top: 4vw;
+    width: 100%;
+    color: var(--yellow-golden);
+    text-align: center;
+    height: 15vw;
+}
