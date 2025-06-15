@@ -118,6 +118,13 @@ header{
     font-weight:bold;
 }
 
+#desktop-body{
+    background-image:linear-gradient( 180deg, rgba(0,0,0,0.90) 0%, rgba(0,0,0,0.90) 100% ) ,url('images/logo_blanco.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+}
+
 #body-first-section {
     position: relative;
     background-image: url('images/Home_4.png');
@@ -803,6 +810,8 @@ header{
     display: flex;
     flex-wrap: wrap;
     padding-top: 3vw;
+
+    
 }
 
 #mobile-body-fourth-section-info{
@@ -866,6 +875,10 @@ header{
     padding-top: 25%;
     padding-bottom: 5vw;
     color: var(--yellow-golden);
+    background-image:linear-gradient( 180deg, rgba(0,0,0,0.90) 0%, rgba(0,0,0,0.90) 100% ) ,url('images/logo_blanco.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center ;
 }
 
 #mobile-body-fith-section-title{

@@ -235,3 +235,241 @@
     text-align: center;
     height: 15vw;
 }
+
+@media (max-width: 650px){
+
+#main-section-mobile{
+    width: 100%;
+    height: 1260vw;
+    margin-top: 5vw;
+}
+
+#main-section-title{
+
+    background-image: linear-gradient( 180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.55) 100% ) ,url('../../images/Home_6.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height:70vw;
+}
+
+#main-section-title div{
+    padding-top: 14vw;
+}
+
+#main-section-title h2{
+    color: var(--red-intense);
+    margin:0;
+    font-size: 7vw;
+    text-align: center;
+    text-shadow: 
+        1px 1px 0px black, 
+        -1px -1px 0px black,
+        1px -1px 0px black,
+        -1px 1px 0px black;
+}
+
+#main-section-title h1{
+    color: var(--yellow-golden);
+    margin:0;
+    font-size: 9vw;
+    text-align: center;
+    text-shadow: 
+        1px 1px 0px black, 
+        -1px -1px 0px black,
+        1px -1px 0px black,
+        -1px 1px 0px black;
+}
+
+#main-section-content{
+    width: 100%;
+    padding-top: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main-section-info{
+    width: 100%;
+    height:300vw;
+    padding-left: 4vw;
+    padding-right: 5vw;
+    color: var(--yellow-golden);
+    font-size: 5vw;
+}
+
+#main-section-info h3{
+    color: var(--red-intense);
+    font-size: 5.5vw;
+    text-align: center;
+}
+
+#main-section-info-title{
+    width: 100%;
+    padding-left: 0vw;
+}
+
+#main-section-info-title h2{
+    color: var(--red-intense);
+    margin:0;
+    font-size: 6vw;
+}
+
+#main-section-info-title h1{
+    color: var(--yellow-golden);
+    margin:0;
+    font-size: 9vw;
+}
+
+#main-section-info-info{
+    padding-top: 10vw;
+}
+
+.sub-section-image{
+    color: var(--yellow-golden);
+    width: 100%;
+    padding-top: 20vw;
+    height:600vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sub-section-image-text{
+    font-size: 4.5vw;
+    padding-left: 9.5vw;
+    padding-right: 2vw;
+    width: 100%;
+}
+
+.sub-section-image-text p{
+    line-height: 5vw;
+}
+
+.sub-section-image-text h3{
+    font-size: 5.5vw;
+}
+
+.sub-section-image-text li{
+    padding: 0.5vw;
+}
+
+.sub-section-image-container{
+    width: 80%;
+    height: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 15%;
+}
+
+.sub-section-image-container img{
+    width: 100%;
+    height: 32%;
+    object-fit: cover;
+    border-radius: 0.25rem;
+    padding-bottom: 15%;
+}
+
+.subtitle{
+    color:var(--red-intense);
+}
+
+#contact-us-section{
+    width: 100%;
+    color: var(--yellow-golden);
+    text-align: center;
+    height: 50vw;
+}
+
+#main-section-form{
+    width: 100%;
+    height:160vw;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20vw;
+    background-image:linear-gradient( 180deg, rgba(0,0,0,0.90) 0%, rgba(0,0,0,0.90) 100% ) ,url('../../images/logo_blanco.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center ;
+}
+
+#client-info-form{
+    width: 100%;
+    height: 160vw;
+
+    padding-bottom: 1vw;
+    color:var(--yellow-golden);
+    border-radius:0.80rem;
+    border: 4px solid var(--yellow-golden);
+     box-shadow: 
+    0px 0px 8px 5px var(--gold-shadow-color);
+}
+
+#client-info-form-first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+    padding-left: 0.7vw;
+    flex-wrap: wrap;
+}
+
+.form-big-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    width:80%;
+    height: 50%;
+}
+
+.form-group{
+    width:100%;
+    height: 30%;
+    font-size:5vw;
+}
+
+.form-group input{
+    margin-top: 0.5vw;
+    width: 95%;
+    height:40%;
+    font-size: 4.5vw;
+}
+
+#client-info-form-second-section{
+    display: flex;
+    justify-content: center;
+    height: 30%;
+
+}
+
+#client-info-form-second-section .form-group{
+   width:80%;
+    height: 80%;
+    padding-right: 10%;
+    padding-left: 13%;
+    padding-top: 5%;
+}
+
+#client-info-form-second-section .form-group textarea{
+   margin-top: 0.5vw;
+    font-size: 5vw;
+    width:95%;
+    height:60%;
+}
+
+#form-submit-button{
+    background-color: var(--red-intense);
+    border: none;
+    font-size: 5.5vw;
+    border-radius: 0.25rem;
+    margin-left: 15%;
+    padding: 1vw;
+}
+
+#phone{
+    font-size:  4.5vw;
+}
+
+
+}
