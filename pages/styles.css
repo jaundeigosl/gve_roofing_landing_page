@@ -470,6 +470,10 @@ footer{
     display: flex;
 }
 
+#mobile-footer-email-section figure{
+    margin-top: 3vw;
+}
+
 
 #mobile-email-footer{
     color: var(--yellow-golden);
