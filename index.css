@@ -602,10 +602,14 @@ header{
 
 #mobile-phone{
     font-size: 7.8vw;
+    color: inherit;
+    text-decoration: none;
 }
 
 #mobile-email{
     font-size: 5.5vw;
+    color: inherit;
+    text-decoration: none;
 }
 
 #mobile-location{
