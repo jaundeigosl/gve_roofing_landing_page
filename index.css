@@ -600,7 +600,7 @@ header{
     padding-left: 10%;
 }
 
-#mobile-phone{
+#mobile-phone a{
     font-size: 7.8vw;
     color: inherit;
     text-decoration: none;
