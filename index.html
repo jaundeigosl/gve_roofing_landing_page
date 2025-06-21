@@ -818,25 +818,13 @@
     </footer>
 
     <script >
-        
-        /*function mobile_dropdown(){
-            let container = document.getElementById('mobile-drop-down');
-            container.addEventListener( 'click' , (event) => {
-                let dropdown = document.getElementById('mobile-drop-down-options');
-                if(dropdown.style.display == 'flex'){
-                    dropdown.style.display = 'none';
-                }else{
-                    dropdown.style.display = 'flex';
-                }
-            })
-        }*/
 
         function mobile_dropdown() {
             let container = document.getElementById('mobile-drop-down');
             let dropdown = document.getElementById('mobile-drop-down-options');
             
             container.addEventListener('click', (event) => {
-                dropdown.classList.toggle('visible'); // Toggle the 'visible' class
+                dropdown.classList.toggle('visible');
             });
         }
 
