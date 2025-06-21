@@ -19,18 +19,19 @@
 
 #main-section{
     width: 100%;
-    height: 210vw;
+    height: 90vw;
     background-image: linear-gradient( 180deg, rgba(0,0,0,0.90) 0%, rgba(0,0,0,0.90) 100% ) ,url('../../images/logo_blanco.png');    
-    background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 #main-section-title{
-    background-image: linear-gradient( 180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.55) 100% ) ,url('../../images/Home_6.jpg');
+    background-image: linear-gradient( 180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.55) 100% ) ,url('../../images/gutters-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 25%;
+    background-position: center;
     width: 100%;
     height:25vw;
 
@@ -71,8 +72,8 @@
 }
 
 #main-section-info{
-    width: 65%;
-    height:65vw;
+    width: 100%;
+    height:30vw;
     padding-left: 3vw;
     color: var(--yellow-golden);
     font-size: 1.4vw;
@@ -86,7 +87,7 @@
 
 #main-section-info-title{
     width: 100%;
-    padding-left: 2vw;
+    padding-bottom: 5vw;
 }
 
 #main-section-info-title h2{
@@ -99,83 +100,23 @@
     color: var(--yellow-golden);
     margin:0;
     font-size: 4vw;
-}
-
-#main-section-info-info{
-    padding-top: 3vw;
-}
-
-#main-section-form{
-    width: 30%;
-    height:65vw;
-    padding-top: 10vw;
-}
-
-#client-info-form{
-    width: 90%;
-    height: 30vw;
-    padding-bottom: 1vw;
-    color:var(--yellow-golden);
-    border-radius:0.80rem;
-    border: 4px solid var(--yellow-golden);
-     box-shadow: 
-    0px 0px 8px 5px var(--gold-shadow-color);
-}
-
-#client-info-form-first-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 14vw;
-    padding-left: 0.7vw;
-}
-
-.form-big-group{
-    padding-left: 1vw;
-    padding-right: 2vw;
-    width:12vw;
-    height: 12vw;
-}
-
-.form-group{
-    padding: 1vw;
-    width:12vw;
-    font-size: 1.3vw;
-}
-
-.form-group input{
-    margin-top: 0.5vw;
-    width: 10vw;
-    height:2vw;
-    font-size: 1.1vw;
-}
-
-#client-info-form-second-section{
-    display: flex;
-    justify-content: center;
-    height: 12vw;
-
-}
-
-#client-info-form-second-section .form-group{
-    width:15vw;
     padding-right: 10vw;
 }
 
-#client-info-form-second-section .form-group textarea{
-    margin-top: 0.5vw;
-    font-size: 1.3vw;
-    width: 22vw;
-    height:6vw;
+#main-section-info li{
+    font-size: 1.5vw;
+    line-height: 1.6vw;
+    padding: 0.3vw;
 }
 
-#form-submit-button{
-    background-color: var(--red-intense);
-    border: none;
-    font-size: 2vw;
-    border-radius: 0.25rem;
-    margin-left: 2vw;
-    padding: 0.5vw;
+#main-section-info-info{
+    padding-top: 1.5vw;
+    padding-right: 4vw;
+}
+
+#main-section-info-info p{
+    font-size: 1.8vw;
+    line-height: 3vw;
 }
 
 #phone{
@@ -185,12 +126,14 @@
 .sub-section-image{
     color: var(--yellow-golden);
     width: 100%;
-    height:80vw;
+    height:40vw;
     display: flex;
+    padding-top: 3vw;
 }
 
 .sub-section-image-text{
-    font-size: 1.5vw;
+    font-size: 1.6vw;
+    line-height: 1.5vw;
     padding-left: 9.5vw;
     padding-right: 2vw;
     width: 65%;
@@ -198,6 +141,7 @@
 
 .sub-section-image-text p{
     line-height: 2.5vw;
+     font-size: 1.8vw;
 }
 
 .sub-section-image-text h3{
@@ -210,7 +154,7 @@
 
 .sub-section-image-container{
     width: 45%;
-    height: 35%;
+    height: 55%;
     padding-left: 6vw;
     padding-right: 2vw;
     padding-bottom: 4vw;
@@ -218,7 +162,7 @@
 
 .sub-section-image-container img{
     width: 80%;
-    height: 80%;
+    height: 100%;
     object-fit: cover;
     border-radius: 0.25rem;
     padding-bottom: 4vw;
@@ -228,25 +172,92 @@
     color:var(--red-intense);
 }
 
-#contact-us-section{
-    padding-top: 4vw;
-    width: 100%;
-    color: var(--yellow-golden);
-    text-align: center;
-    height: 15vw;
+
+#client-info-form{
+    width: 50%;
+    height: 30vw;
+    color:var(--yellow-golden);
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius:0.80rem;
+    border: 6px solid var(--yellow-golden);
+     box-shadow: 
+    0px 0px 8px 5px var(--gold-shadow-color);
 }
+
+#client-info-form-first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14vw;
+}
+
+.form-big-group{
+    padding-left: 4vw;
+    padding-right: 4vw;
+    width:19vw;
+    height: 12vw;
+}
+
+.form-group{
+    padding: 0.5vw;
+    width:15vw;
+    font-size: 1.6vw;
+}
+
+.form-group input{
+    margin-top: 0.5vw;
+    width: 15vw;
+    height:2vw;
+    font-size: 1.3vw;
+}
+
+#client-info-form-second-section{
+    display: flex;
+    justify-content: center;
+    height: 12vw;
+
+}
+
+#client-info-form-second-section .form-group{
+    width:25vw;
+    padding-right: 17vw;
+}
+
+#client-info-form-second-section .form-group textarea{
+    margin-top: 0.5vw;
+    font-size: 1.3vw;
+    width: 40vw;
+    height:6vw;
+}
+
+#form-submit-button{
+    background-color: var(--red-intense);
+    border: none;
+    font-size: 2vw;
+    border-radius: 0.25rem;
+    margin-left: 4vw;
+    padding: 0.5vw;
+}
+
+
+
+
+
+
+
 
 @media (max-width: 650px){
 
 #main-section-mobile{
     width: 100%;
-    height: 1200vw;
+    height: 310vw;
     margin-top: 5vw;
 }
 
 #main-section-title{
 
-    background-image: linear-gradient( 180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.55) 100% ) ,url('../../images/Home_6.jpg');
+    background-image: linear-gradient( 180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.55) 100% ) ,url('../../images/gutters-1.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
@@ -255,6 +266,7 @@
 
 #main-section-title div{
     padding-top: 14vw;
+
 }
 
 #main-section-title h2{
@@ -290,7 +302,7 @@
 
 #main-section-info{
     width: 100%;
-    height:300vw;
+    height:160vw;
     padding-left: 4vw;
     padding-right: 5vw;
     color: var(--yellow-golden);
@@ -318,105 +330,67 @@
     color: var(--yellow-golden);
     margin:0;
     font-size: 9vw;
+    text-align: center;
+    padding: 0;
 }
 
 #main-section-info-info{
     padding-top: 10vw;
 }
 
-.sub-section-image{
-    color: var(--yellow-golden);
-    width: 100%;
-    padding-top: 20vw;
-    height:530vw;
-    display: flex;
-    flex-wrap: wrap;
-}
+#main-section-info-info p{
 
-.sub-section-image-text{
-    font-size: 4.5vw;
-    padding-left: 9.5vw;
-    padding-right: 2vw;
-    width: 100%;
-    height: 50%;
-}
+    font-size: 5vw;
+    line-height: 6vw;
+    padding-left: 4vw;
+} 
 
-.sub-section-image-text p{
-    line-height: 5vw;
-}
-
-.sub-section-image-text h3{
-    font-size: 5.5vw;
-}
-
-.sub-section-image-text li{
-    padding: 0.5vw;
-}
-
-.sub-section-image-container{
-    width: 80%;
-    height: 50%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 15%;
-}
-
-.sub-section-image-container img{
-    width: 100%;
-    height: 32%;
-    object-fit: cover;
-    border-radius: 0.25rem;
-    padding-bottom: 15%;
-}
+#main-section-info li{
+    font-size: 5vw;
+    line-height: 6vw;
+}   
 
 .subtitle{
     color:var(--red-intense);
 }
 
-#contact-us-section{
-    width: 100%;
-    color: var(--yellow-golden);
-    text-align: center;
-    height: 55vw;
+
+#mobile-client-info-form-container{
+    width: 80%;
     padding-left: 10%;
     padding-right: 10%;
-}
-
-#main-section-form{
-    width: 100%;
-    height:160vw;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 20vw;
-    margin-top:5vw;
-    background-image:linear-gradient( 180deg, rgba(0,0,0,0.80) 0%, rgba(0,0,0,0.80) 100% ) ,url('../../images/logo_blanco.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center ;
-}
-
-#client-info-form{
-    width: 100%;
+    padding-top: 10vw;
     height: 160vw;
+}
 
-    padding-bottom: 1vw;
+
+#mobile-body-fith-section-form{
+    width: 80%;
+    height:75%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#mobile-client-info-form{
+    width: 100%;
+    height: 80%;
+    padding-top: 10%;
     color:var(--yellow-golden);
     border-radius:0.80rem;
-    border: 4px solid var(--yellow-golden);
+    border: 6px solid var(--yellow-golden);
      box-shadow: 
     0px 0px 8px 5px var(--gold-shadow-color);
 }
 
-#client-info-form-first-section{
+#mobile-client-info-form-first-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 100vw;
-    padding-left: 0.7vw;
-    flex-wrap: wrap;
+    height: 50%;
 }
 
-.form-big-group{
+.mobile-form-big-group{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -427,42 +401,44 @@
     height: 50%;
 }
 
-.form-group{
-    width:100%;
-    height: 30%;
+.mobile-form-group{
+    padding: 0.5vw;
+    width:85%;
+    height: 25%;
     font-size:5vw;
 }
 
-.form-group input{
+.mobile-form-group input{
     margin-top: 0.5vw;
-    width: 95%;
-    height:40%;
+    width: 100%;
+    height:50%;
     font-size: 4.5vw;
 }
 
-#client-info-form-second-section{
+#mobile-client-info-form-second-section{
     display: flex;
     justify-content: center;
-    height: 30%;
+    height: 40%;
 
 }
 
-#client-info-form-second-section .form-group{
-   width:80%;
+#mobile-client-info-form-second-section .mobile-form-group{
+    width:80%;
     height: 80%;
     padding-right: 10%;
-    padding-left: 13%;
-    padding-top: 5%;
+    padding-left: 15%;
+    padding-top: 10%;
+
 }
 
-#client-info-form-second-section .form-group textarea{
-   margin-top: 0.5vw;
+#mobile-client-info-form-second-section .mobile-form-group textarea{
+    margin-top: 0.5vw;
     font-size: 5vw;
-    width:95%;
-    height:60%;
+    width:93%;
+    height:80%;
 }
 
-#form-submit-button{
+#mobile-form-submit-button{
     background-color: var(--red-intense);
     border: none;
     font-size: 5.5vw;
@@ -472,8 +448,9 @@
 }
 
 #phone{
-    font-size:  4.5vw;
+    font-size: 5vw;
 }
+
 
 
 }

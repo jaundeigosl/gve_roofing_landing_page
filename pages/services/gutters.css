@@ -19,18 +19,17 @@
 
 #main-section{
     width: 100%;
-    height: 210vw;
+    height: 315vw;
     background-image: linear-gradient( 180deg, rgba(0,0,0,0.90) 0%, rgba(0,0,0,0.90) 100% ) ,url('../../images/logo_blanco.png');    
-    background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 #main-section-title{
-    background-image: linear-gradient( 180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.55) 100% ) ,url('../../images/Home_6.jpg');
+    background-image: linear-gradient( 180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.55) 100% ) ,url('../../images/gutters-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 25%;
+    background-position: center;
     width: 100%;
     height:25vw;
 
@@ -72,7 +71,7 @@
 
 #main-section-info{
     width: 65%;
-    height:65vw;
+    height:100vw;
     padding-left: 3vw;
     color: var(--yellow-golden);
     font-size: 1.4vw;
@@ -99,10 +98,23 @@
     color: var(--yellow-golden);
     margin:0;
     font-size: 4vw;
+    padding-right: 10vw;
+}
+
+#main-section-info li{
+    font-size: 1.5vw;
+    line-height: 1.6vw;
+    padding: 0.3vw;
 }
 
 #main-section-info-info{
-    padding-top: 3vw;
+    padding-top: 1.5vw;
+    padding-right: 4vw;
+}
+
+#main-section-info-info p{
+    font-size: 1.6vw;
+    line-height: 2.2vw;
 }
 
 #main-section-form{
@@ -185,12 +197,14 @@
 .sub-section-image{
     color: var(--yellow-golden);
     width: 100%;
-    height:80vw;
+    height:60vw;
     display: flex;
+    padding-top: 3vw;
 }
 
 .sub-section-image-text{
-    font-size: 1.5vw;
+    font-size: 1.6vw;
+    line-height: 1.5vw;
     padding-left: 9.5vw;
     padding-right: 2vw;
     width: 65%;
@@ -210,7 +224,7 @@
 
 .sub-section-image-container{
     width: 45%;
-    height: 35%;
+    height: 55%;
     padding-left: 6vw;
     padding-right: 2vw;
     padding-bottom: 4vw;
@@ -228,8 +242,29 @@
     color:var(--red-intense);
 }
 
+#extra-section{
+    width: 100%;
+    height: 100vw;
+    color:var(--yellow-golden);
+    padding-left: 3vw;
+}
+
+#extra-section h3{
+    font-size: 2.5vw;
+}
+
+#extra-section ul li{
+    font-size: 1.6vw;
+    line-height: 1.5vw;
+    padding: 0.5vw;
+}
+
+#extra-section p{
+    font-size: 1.6vw;
+}
+
 #contact-us-section{
-    padding-top: 4vw;
+    padding-top: 8vw;
     width: 100%;
     color: var(--yellow-golden);
     text-align: center;
@@ -240,13 +275,13 @@
 
 #main-section-mobile{
     width: 100%;
-    height: 1200vw;
+    height: 1630vw;
     margin-top: 5vw;
 }
 
 #main-section-title{
 
-    background-image: linear-gradient( 180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.55) 100% ) ,url('../../images/Home_6.jpg');
+    background-image: linear-gradient( 180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.55) 100% ) ,url('../../images/gutters-1.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
@@ -255,6 +290,7 @@
 
 #main-section-title div{
     padding-top: 14vw;
+
 }
 
 #main-section-title h2{
@@ -290,7 +326,7 @@
 
 #main-section-info{
     width: 100%;
-    height:300vw;
+    height:450vw;
     padding-left: 4vw;
     padding-right: 5vw;
     color: var(--yellow-golden);
@@ -324,11 +360,24 @@
     padding-top: 10vw;
 }
 
+#main-section-info-info p{
+
+    font-size: 5vw;
+    line-height: 6vw;
+    padding-left: 4vw;
+} 
+
+#main-section-info li{
+    font-size: 5vw;
+    line-height: 6vw;
+}   
+
+
 .sub-section-image{
     color: var(--yellow-golden);
     width: 100%;
     padding-top: 20vw;
-    height:530vw;
+    height:400vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -346,24 +395,30 @@
 }
 
 .sub-section-image-text h3{
-    font-size: 5.5vw;
+    font-size: 6.5vw;
 }
 
-.sub-section-image-text li{
-    padding: 0.5vw;
+.sub-section-image-text p{
+    font-size: 5vw;
 }
+
+.sub-section-image-text li {
+    font-size: 5vw;
+    line-height: 6vw;
+}
+
 
 .sub-section-image-container{
     width: 80%;
-    height: 50%;
+    height: 40%;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
 }
 
 .sub-section-image-container img{
     width: 100%;
-    height: 32%;
+    height: 45%;
     object-fit: cover;
     border-radius: 0.25rem;
     padding-bottom: 15%;
@@ -373,13 +428,34 @@
     color:var(--red-intense);
 }
 
+#extra-section{
+    height:400vw;
+    padding-left: 7vw;
+    padding-right: 2vw;
+}
+
+#extra-section h3{
+    font-size: 6.5vw;
+}
+
+#extra-section p {
+    font-size: 5vw;
+}
+
+#extra-section ul li{
+    font-size: 5vw;
+    line-height: 6vw;
+}
+
+
 #contact-us-section{
     width: 100%;
     color: var(--yellow-golden);
     text-align: center;
-    height: 55vw;
+    height: 30vw;
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 15vw;
 }
 
 #main-section-form{
