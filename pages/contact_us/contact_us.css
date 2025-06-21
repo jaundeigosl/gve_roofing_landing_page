@@ -360,7 +360,11 @@
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 10vw;
-    height: 160vw;
+    height: 150vw;
+    background-image:linear-gradient( 180deg, rgba(0,0,0,0.80) 0%, rgba(0,0,0,0.80) 100% ) ,url('../../images/logo_blanco.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center ;
 }
 
 
