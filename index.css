@@ -107,15 +107,74 @@ header{
     display:flex;
     justify-content: center;
     align-items: center;
-    gap:5vw;
-    padding-top: 1.8vw;
+    padding-top: 1.3vw;
     width: 95%;
+}
+
+#nav-header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .nav-header-container{
     color: var(--red-intense);
     font-size: 1.5vw;
     font-weight:bold;
+    width: 16vw;
+    height:4.6vw;
+    text-align:center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25rem;
+    transition: all 0.5s ;
+}
+
+.nav-header-container:hover{
+    background-color: var(--yellow-golden);
+    color: black;
+    transition: all 0.5s ;
+    font-size: 1.7vw;
+}
+
+#desktop-drop-down-services{
+    position: relative;
+
+}
+
+#desktop-drop-down-options{
+    display: none;
+    position: absolute;
+    background-color: black;
+    z-index: 10;
+    height: 25vw;
+    top:4vw
+}
+
+#desktop-drop-down-options a{
+    width: 100%;
+    height: 4vw;
+    font-size: 1.5vw;
+    padding: 1vw;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--red-intense);
+}
+
+#desktop-drop-down-options a:hover{
+    background-color: var(--yellow-golden);
+    color: black;
+    transition: all 0.5s ;
+}
+
+#desktop-drop-down-services:hover #desktop-drop-down-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 #desktop-body{
@@ -354,6 +413,11 @@ header{
     text-align: center;
 }
 
+#body-fourth-section-info a {
+    text-decoration: none;
+    color:inherit;
+}
+
 #body-fith-section{
     width: 100%;
     height:45vw;
@@ -483,10 +547,11 @@ footer{
 
 #footer-quick-menu-options{
     color: var(--yellow-golden);
-    display: block;
     width:100%;
     text-align: start;
-    gap:25%;
+    display: flex;
+    font-size: 1.5vw;
+    gap:10%;
 }
 
 #quick-menu-first-column div{
@@ -494,16 +559,19 @@ footer{
     padding-bottom: 0.5vw;
 }
 
+#quick-menu-first-column div a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #quick-menu-second-column div{
     padding-top: 0.5vw;
     padding-bottom: 0.5vw;
 }
 
-#footer-quick-menu-options{
-    display: flex;
-    font-size: 1.5vw;
-    gap:10%;
-
+#quick-menu-second-column div a{
+    text-decoration: none;
+    color: inherit;
 }
 
 #footer-contact-info{
@@ -606,7 +674,7 @@ header{
     text-decoration: none;
 }
 
-#mobile-email{
+#mobile-email a{
     font-size: 5.5vw;
     color: inherit;
     text-decoration: none;
@@ -621,6 +689,7 @@ header{
     padding-top: 15%;
     padding-bottom: 10%;
     border-bottom: 2px solid #D91C30 ;
+    position: relative;;
 }
 
 #mobile-nav-options svg{
@@ -628,6 +697,45 @@ header{
     padding-left: 45%;
     padding-right: 45%;
 
+}
+
+#mobile-drop-down-options{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    z-index: 10;
+    height: 120vw;
+    width: 60vw;
+    top:30vw;
+    right:20vw;
+
+    overflow: hidden; 
+    height: auto; 
+    max-height: 0; 
+    opacity: 0; 
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+
+#mobile-drop-down-options.visible {
+    display: flex; 
+    max-height: 120vw; 
+    opacity: 1; 
+}
+
+
+#mobile-drop-down-options a{
+    width: 55vw;
+    height: 10vw;
+    font-size: 5vw;
+    padding: 2vw;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--red-intense);
 }
 
 #mobile-body-first-section {
@@ -1148,6 +1256,11 @@ footer{
     font-size: 7vw;
 }
 
+#mobile-phone-footer a{
+    color: inherit;
+    text-decoration: none;
+}
+
 #mobile-footer-email-section{
     width: 100%;
     display: flex;
@@ -1165,6 +1278,11 @@ footer{
     justify-content: start;
     align-items: center;
     font-size: 6vw;
+}
+
+#mobile-email-footer a{
+    color: inherit;
+    text-decoration: none;
 }
 
 }
